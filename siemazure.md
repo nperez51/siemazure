@@ -58,3 +58,7 @@ The image is a graphic representation of this laboratory, basically, a **Windows
 ![alt text](image-13.png)
 
 - When ask to Sentinel about information, it provides geolocation and IP
+
+![alt text](image-14.png)
+
+- After 2 hours of deploy, numbers below correspond to attacks
