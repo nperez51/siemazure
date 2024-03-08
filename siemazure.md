@@ -62,3 +62,24 @@ The image is a graphic representation of this laboratory, basically, a **Windows
 ![alt text](image-14.png)
 
 - After 2 hours of deploy, numbers below correspond to attacks
+
+![alt text](image-15.png)
+
+- 12 hours after, our exposed VM was attacked 12200 from Indonesia, the API stop to work, because we have 10000 free queries.
+
+# 7. Project ending
+
+![alt text](image-16.png)
+
+- Is a good practique, delete the resource group after we finish, if we don't delete this resources, it continous generate cost for the subscription.
+
+![alt text](image-17.png)
+
+- In CloudShell from Azure, to delete a resource group write : 
+
+                  az group delete --name "resourcegroup name"
+
+ 
+ # 8. Conclusion
+
+ - It was a very informative lab, it is important to have correctly configured aspects such as Firewalls and NSG, in addition to having atypical credentials, and if possible use MFA, in order to harden the security of our resources in the cloud.
